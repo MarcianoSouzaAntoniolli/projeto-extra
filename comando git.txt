@@ -1,0 +1,21 @@
+git remote remove origin
+git remote add origin https://github.com/MarcianoSouzaAntoniolli/projeto-extra.git
+cd\
+md projeto-estra
+git init .\progeto-extra\
+echo "MEU ARQUIVO HTML" > index.html
+echo "MEU ARQUIVO css" > style.css 
+echo "MEU ARQUIVO css" > script.js 
+git add .
+git commit -m "CRIANDO OS AQUIVOS NO REPOSITORIO"
+echo "CORREÇÃO MEU AQUIVO JAVA SCRIPIT" >> script.js 
+git add .  
+git commit -m "ATUALIZANDO OS AQUIVOS NO REPOSITORIO"  
+echo "ATUALIZANDO MEU ARQUIVO HTML VERSAO 2" >> index.html 
+echo "ATUALIZANDO MEU ARQUIVO css  VERSAO 2" >> style.css  
+git add . 
+git commit -m "atulizando versao 2 index.html e style.js"
+git remote add https://github.com/MarcianoSouzaAntoniolli/projeto-extra.git     
+git branch
+git branch -M main
+git push -u origin main 
